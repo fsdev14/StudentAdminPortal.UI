@@ -50,13 +50,15 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { FormsModule } from '@angular/forms';
+import { ViewStudentComponent } from './students/view-student/view-student.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavComponent,
-    StudentsComponent
+    StudentsComponent,
+    ViewStudentComponent
   ],
   imports: [
     FormsModule,
